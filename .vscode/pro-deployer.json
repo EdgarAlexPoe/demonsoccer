@@ -1,6 +1,6 @@
 {
 	"uploadOnSave": false,
-	"autoDelete": true,
+	"autoDelete": false,
 	"checkGitignore": false,
 	"activeTargets": [
 		"My FTP"
