@@ -1,0 +1,25 @@
+{
+	"uploadOnSave": false,
+	"autoDelete": true,
+	"checkGitignore": false,
+	"activeTargets": [
+		"My FTP"
+	],
+	"concurrency": 5,
+	"ignore": [
+		".git/**/*",
+		".vscode/**/*"
+	],
+	"targets": [
+		{
+			"name": "My FTP",
+			"type": "ftp",
+			"host": "giow1074.siteground.us",
+			"port": 21,
+			"user": "evan@demonboyssoccer.com",
+			"password": "1e@&q3Ltt2@^",
+			"dir": "demonboyssoccer.com/public_html",
+			"transferDataType": "binary"
+		}
+	]
+}
